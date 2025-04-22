@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayasha Nanda - Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>⠀</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="passions.html">Passions</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="contact-container">
+        <h1>Contact Me</h1>
+        <p>If you'd like to get in touch, feel free to send me a message!</p>
+
+        <form action="https://formspree.io/f/mnnpvwrz" method="POST">
+            <label for="name">Name<span class="required">*</span></label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email<span class="required">*</span></label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message<span class="required">*</span></label>
+            <textarea id="message" name="message" rows="5" required></textarea>            
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <h2>Connect with me</h2>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/prayasha-nanda" target="_blank" class="linkedin">
+                <i class="fab fa-linkedin social-links"></i>
+            </a>
+            <a href="https://github.com/prayasha-nanda" target="_blank">
+                <i class ="fab fa-github social-links"></i>
+            </a>
+            <a href="mailto:prayasha.nanda@gmail.com">
+                <i class="fas fa-envelope social-links"></i>
+            </a>
+        </div>
+    </div>
+
+    <button id="modeToggle"><i class="fas fa-moon"></i></button>
+</body>
+</html>
